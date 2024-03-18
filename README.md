@@ -1,6 +1,6 @@
-# Timia's Technical Task
+# Mia's Technical Task
 
-Timia's Technical Task is an application that integrates a GPT-2 model for generating text based on user input. It provides a user-friendly interface for loading the model, entering prompts, and displaying the generated text output. This project is built using Python, with dependencies on libraries such as `torch`, `transformers`, `imgui`, and `glfw` for the graphical user interface and model handling. The code is heavily reliant upon the HuggingFace transfomers library, in particular GPT2 libraries which can be explored in [Reference 1](#reference-1). 
+Mia's Technical Task is an application that integrates a GPT-2 model for generating text based on user input. It provides a user-friendly interface for loading the model, entering prompts, and displaying the generated text output. This project is built using Python, with dependencies on libraries such as `torch`, `transformers`, `imgui`, and `glfw` for the graphical user interface and model handling. The code is heavily reliant upon the HuggingFace transfomers library, in particular GPT2 libraries which can be explored in [Reference 1](#reference-1). 
 There is also a selection of scripts for the investigation of CPU inference optimisation. These can be found in the `testing/` directory
 
 ## Features
