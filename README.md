@@ -78,6 +78,7 @@ These enhancements aim to provide a user-friendly interface for exploring the ca
 This section contains information about additional scripts located in the testing folder for evaluating different aspects of the model and optimisation techniques. Detailed results and discussions are available in the [Testing Results](testing/TESTING_RESULTS.md) document.
 
 **Decoder Method Testing (`decoder_method_testing.py`)**
+
 This script evaluates the performance of different decoding methods (e.g., Greedy Search, Sampling) and model sizes (GPT-2 Small, Medium, Large) in terms of inference time and output quality. It utilizes the transformers library for the GPT-2 model and various decoding strategies.
 
 Main Findings:
@@ -86,6 +87,7 @@ Main Findings:
 - Larger models increase inference time without necessarily improving output quality significantly.
 
 **Optimisation Testing (`optimisation_testing.py`)**
+
 This script tests various optimisation techniques (e.g., Dynamic Quantisation, Multithreading) to improve inference speed while maintaining or enhancing output quality. It uses the GPT-2 model from the transformers library and applies optimisations available in PyTorch.
 
 Main Findings:
@@ -99,6 +101,7 @@ This script is the same as optimisation_testing.py except the decoder method has
 For a comprehensive analysis of the tests and their results, please consult the scripts and documentation in the testing folder.
 
 **Optimization and Sampling Test (`opt_test_script.py`)**  
+
 This script evaluates the GPT-2 model's performance using dynamic quantization and sampling methods to fine-tune the balance between generation speed and text quality for a specific task. Utilizing a fixed prompt ensures consistent comparisons of output quality and inference times across trials.
 
 Key Strategies:
