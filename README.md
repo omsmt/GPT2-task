@@ -29,8 +29,8 @@ There is also a selection of scripts for the investigation of CPU inference opti
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/omsmt/GPT2_Task.git
-cd GPT2_Task
+git clone https://github.com/omsmt/GPT2-Task.git
+cd GPT2-Task
 ```
 
 2. **Install dependencies:**
