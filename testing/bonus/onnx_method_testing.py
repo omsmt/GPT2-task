@@ -6,6 +6,9 @@ import torch
 import numpy
 import time
 
+# Terminal command ran to generate the onnx file 
+# python -m onnxruntime.transformers.models.gpt2.convert_to_onnx -m "gpt2-medium" --output "testing/bonus/gpt2-medium.onnx" -o -p fp32 -t 10 >export_output.txt 2>&1
+
 # Model and tokenizer setup
 model_name = "gpt2-medium"
 onnx_model_path = "testing/bonus/gpt2-medium.onnx"
