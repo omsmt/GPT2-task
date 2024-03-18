@@ -38,7 +38,7 @@ cd GPT2_Task
 It's recommended to use a virtual environment:
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 To run the application, execute the main script:
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 Upon launching, you will see a window with instructions to load the model and enter your prompt. Follow the UI instructions for text generation.
@@ -108,11 +108,11 @@ Key Strategies:
 
 Despite the potential speed gains from multithreading, it was excluded from the final UI implementation, as the UI generates single outputs at a time. This script illustrates effectiveness of the chosen optimal setup, which unites rapid response times with reasonable quality text generation.
 
-### Bonus: ONNX Model Testing
+**Bonus: ONNX Model Testing**
 
 A bonus script for initial testing using an ONNX model is included in the `testing/bonus` directory. This script, `onnx_method_testing.py`, provides a quick test environment to perform inference with a GPT-2 ONNX model on a CPU. The ONNX model offers potential optimisation for deployment scenarios where inference speed is a critical factor. The script is adapted from the approach detailed in [Reference 8](#reference-8).
 
-**Future Considerations**
+## Future Considerations
 
 With additional time and resources, the following optimisation avenues could be explored:
 
